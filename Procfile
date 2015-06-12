@@ -1,1 +1,1 @@
-web: waitress-serve --port=80 hellodjango.wsgi
+web: waitress-serve --port=80 mysample.wsgi:application
