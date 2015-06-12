@@ -1,1 +1,1 @@
-web: gunicorn hellodjango.wsgi
+web: waitress-serve --port=80 hellodjango.wsgi
