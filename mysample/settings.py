@@ -75,19 +75,23 @@ WSGI_APPLICATION = 'mysample.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': 'pymysample',
-        'USER':'postgres',
-        'PASS':'postgres',
-        'HOST':'localhost',
-        'OPTIONS': {
-                'options': '-c search_path=joshco,public'
-            }
-    }
-}
+DATABASES={}
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         'NAME': 'pymysample',
+#         'USER':'postgres',
+#         'PASS':'postgres',
+#         'HOST':'localhost',
+#         'OPTIONS': {
+#                 'options': '-c search_path=joshco,public'
+#             }
+#     }
+# }
 
 
 # Internationalization
