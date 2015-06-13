@@ -1,7 +1,10 @@
 FROM kaggle/python:latest
 
-RUN curl https://github.com/gliderlabs/herokuish/releases/download/v0.3.0/herokuish_0.3.0_linux_x86_64.tgz \
-		--silent -L | tar -xzC /bin
+# https://github.com/gliderlabs/herokuish/releases/download/v0.3.0/herokuish_0.3.0_linux_x86_64.tgz
+
+RUN curl -L https://github.com/gliderlabs/herokuish/releases/download/v0.3.0/herokuish_0.3.0_linux_x86_64.tgz -L > foooo.tgz
+
+RUN tar -xzCf foooo.tgz /bin
 
 # install herokuish supported buildpacks and entrypoints
 RUN /bin/herokuish buildpack install \
