@@ -9,3 +9,7 @@ RUN /bin/herokuish buildpack install \
 	&& ln -s /bin/herokuish /build \
 	&& ln -s /bin/herokuish /start \
 	&& ln -s /bin/herokuish /exec
+
+
+# backwards compatibility
+ADD ./rootfs /
