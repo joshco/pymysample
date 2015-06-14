@@ -1,0 +1,1672 @@
++ parse_args git-receive-pack ''\''pymysample'\'''
++ for arg in '"$@"'
++ case "$arg" in
++ for arg in '"$@"'
++ case "$arg" in
++ return 0
++ args=("$@")
++ [[ git-receive-pack =~ ^--.* ]]
++ has_tty
+++ /usr/bin/tty
+++ true
++ [[ not a tty == \n\o\t\ \a\ \t\t\y ]]
++ return 1
++ DOKKU_QUIET_OUTPUT=1
+++ id -un
++ [[ dokku != \d\o\k\k\u ]]
++ [[ -n git-receive-pack 'pymysample' ]]
++ export -n SSH_ORIGINAL_COMMAND
++ [[ git-receive-pack =~ config-* ]]
++ /usr/local/bin/dokku git-receive-pack ''\''pymysample'\'''
++ [[ -f /home/dokku/dokkurc ]]
++ [[ -d /home/dokku/.dokkurc ]]
++ for f in '$DOKKU_ROOT/.dokkurc/*'
++ source /home/dokku/.dokkurc/DOKKU_TRACE
+++ export DOKKU_TRACE=1
+++ DOKKU_TRACE=1
++ [[ -n 1 ]]
++ set -x
++ parse_args git-receive-pack ''\''pymysample'\'''
++ for arg in '"$@"'
++ case "$arg" in
++ for arg in '"$@"'
++ case "$arg" in
++ return 0
++ args=("$@")
++ [[ git-receive-pack =~ ^--.* ]]
++ has_tty
+++ /usr/bin/tty
+++ true
++ [[ not a tty == \n\o\t\ \a\ \t\t\y ]]
++ return 1
++ DOKKU_QUIET_OUTPUT=1
+++ id -un
++ [[ dokku != \d\o\k\k\u ]]
++ [[ -n '' ]]
++ case "$1" in
++ implemented=0
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/00_dokku-standard/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands
++ source /var/lib/dokku/plugins/00_dokku-standard/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/apps/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/apps/commands
++ source /var/lib/dokku/plugins/apps/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/backup/commands git-receive-pack ''\''pymysample'\'''
++ CURRENT_BACKUP_VERSION=1
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/config/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/config/commands
++ source /var/lib/dokku/plugins/config/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ ENV_FILE='/home/dokku/'\''pymysample'\''/ENV'
++ ENV_FILE_TEMP='/home/dokku/'\''pymysample'\''/ENV.tmp'
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/docker-options/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/docker-options/commands
++ source /var/lib/dokku/plugins/docker-options/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ PHASES=(build deploy run)
++ FILE_PREFIX=DOCKER_OPTIONS_
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/dokku-psql-single-container/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands
++ source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands
++ source /var/lib/dokku/plugins/dokku-psql-single-container/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ APP=''\''pymysample'\'''
+++ PSQL_ROOT=/home/dokku/.psql-sc
+++ PSQL_IMAGE=postgres:9.3
+++ PSQL_CONTAINER_NAME=psql-single-container
++ set +e
++ [[ git-receive-pack == psql:* ]]
++ case "$1" in
++ exit_code=0
++ set -e
++ [[ 0 -eq 10 ]]
++ implemented=1
++ [[ 0 -ne 0 ]]
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/domains/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/domains/commands
++ source /var/lib/dokku/plugins/domains/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'
++ RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'
++ RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/git/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/git/commands
++ source /var/lib/dokku/plugins/git/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ case "$1" in
+++ perl -pe 's/(?<!\\)'\''//g'
+++ echo ''\''pymysample'\'''
+++ sed 's/\\'\''/'\''/g'
++ APP=pymysample
++ APP_PATH=/home/dokku/pymysample
++ [[ git-receive-pack == \g\i\t\-\r\e\c\e\i\v\e\-\p\a\c\k ]]
++ [[ ! -d /home/dokku/pymysample/refs ]]
++ args='git-receive-pack '\''pymysample'\'''
++ git-shell -c 'git-receive-pack '\''pymysample'\'''
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args git-hook pymysample[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ git-hook =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands git-hook pymysample[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/docker-options/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/docker-options/commands[K
+remote: + source /var/lib/dokku/plugins/docker-options/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + PHASES=(build deploy run)[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/dokku-psql-single-container/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ APP=pymysample[K
+remote: ++ PSQL_ROOT=/home/dokku/.psql-sc[K
+remote: ++ PSQL_IMAGE=postgres:9.3[K
+remote: ++ PSQL_CONTAINER_NAME=psql-single-container[K
+remote: + set +e[K
+remote: + [[ git-hook == psql:* ]][K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/domains/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/domains/commands[K
+remote: + source /var/lib/dokku/plugins/domains/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/git/commands git-hook pymysample[K
+remote: ++ dirname /var/lib/dokku/plugins/git/commands[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + read oldrev newrev refname[K
+remote: + [[ refs/heads/master = \r\e\f\s\/\h\e\a\d\s\/\m\a\s\t\e\r ]][K
+remote: + pluginhook receive-app pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/git/receive-app[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + APP=pymysample[K
+remote: + REV=6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + dokku git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ git-build =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/docker-options/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/docker-options/commands[K
+remote: + source /var/lib/dokku/plugins/docker-options/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + PHASES=(build deploy run)[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/dokku-psql-single-container/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ APP=pymysample[K
+remote: ++ PSQL_ROOT=/home/dokku/.psql-sc[K
+remote: ++ PSQL_IMAGE=postgres:9.3[K
+remote: ++ PSQL_CONTAINER_NAME=psql-single-container[K
+remote: + set +e[K
+remote: + [[ git-build == psql:* ]][K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/domains/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/domains/commands[K
+remote: + source /var/lib/dokku/plugins/domains/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/git/commands git-build pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/git/commands[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + APP_BUILD_LOCK=/home/dokku/pymysample/.build.lock[K
+remote: + APP_BUILD_LOCK_MSG='pymysample is currently being deployed or locked. Waiting...'[K
+remote: ++ flock -n /home/dokku/pymysample/.build.lock true[K
+remote: ++ echo 0[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + shift 1[K
+remote: + flock -o /home/dokku/pymysample/.build.lock dokku git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ git-build-locked =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/docker-options/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/docker-options/commands[K
+remote: + source /var/lib/dokku/plugins/docker-options/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + PHASES=(build deploy run)[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/dokku-psql-single-container/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ APP=pymysample[K
+remote: ++ PSQL_ROOT=/home/dokku/.psql-sc[K
+remote: ++ PSQL_IMAGE=postgres:9.3[K
+remote: ++ PSQL_CONTAINER_NAME=psql-single-container[K
+remote: + set +e[K
+remote: + [[ git-build-locked == psql:* ]][K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/domains/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/domains/commands[K
+remote: + source /var/lib/dokku/plugins/domains/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/git/commands git-build-locked pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ dirname /var/lib/dokku/plugins/git/commands[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + [[ 3 -ge 3 ]][K
+remote: + REF=6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + git_build_app_repo pymysample 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + verify_app_name pymysample[K
+remote: + local APP=pymysample[K
+remote: + [[ ! -d /home/dokku/pymysample ]][K
+remote: + IMAGE=dokku/pymysample[K
+remote: + return 0[K
+remote: + APP=pymysample[K
+remote: + REV=6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: ++ mktemp -d[K
+remote: + TMP_WORK_DIR=/tmp/tmp.I4qDeceVNt[K
+remote: + trap 'rm -rf "$TMP_WORK_DIR" > /dev/null' RETURN[K
+remote: + chmod 755 /tmp/tmp.I4qDeceVNt[K
+remote: + unset GIT_DIR GIT_WORK_TREE[K
+remote: + pushd /tmp/tmp.I4qDeceVNt[K
+remote: + git clone -q /home/dokku/pymysample /tmp/tmp.I4qDeceVNt[K
+remote: + git config advice.detachedHead false[K
+remote: + git checkout 6b64f56e83beeb735b7e584e4e9121f8d6f41792[K
+remote: + git submodule update --init --recursive[K
+remote: + find -name .git -prune -exec rm -rf '{}' ';'[K
+remote: + [[ -f Dockerfile ]][K
+remote: ++ [[ -f .env ]][K
+remote: ++ echo 1[K
+remote: + [[ 1 != \0 ]][K
+remote: + [[ ! -f .buildpacks ]][K
+remote: + sed -u 's/^/[1G/'[K
+remote: + dokku receive pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args receive pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ receive =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + IMAGE=dokku/pymysample[K
+remote: + IMAGE_SOURCE_TYPE=dockerfile[K
+remote: + TMP_WORK_DIR=/tmp/tmp.I4qDeceVNt[K
+remote: + dokku_log_info1 'Cleaning up...'[K
+remote: + echo '-----> Cleaning up...'[K
+remote: + dokku cleanup[K
+remote: [1G-----> Cleaning up...[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args cleanup[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ cleanup =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + dokku_log_info1 'Building pymysample from dockerfile...'[K
+remote: + echo '-----> Building pymysample from dockerfile...'[K
+remote: + dokku build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: [1G-----> Building pymysample from dockerfile...[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ build =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ docker images -f dangling=true -q[K
+remote: ++ docker ps -a -f status=exited -q[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + IMAGE=dokku/pymysample[K
+remote: + IMAGE_SOURCE_TYPE=dockerfile[K
+remote: + TMP_WORK_DIR=/tmp/tmp.I4qDeceVNt[K
+remote: + CACHE_DIR=/home/dokku/pymysample/cache[K
+remote: + pushd /tmp/tmp.I4qDeceVNt[K
+remote: + case "$IMAGE_SOURCE_TYPE" in[K
+remote: ++ awk '{ print $2 }'[K
+remote: ++ head -1[K
+remote: ++ grep EXPOSE Dockerfile[K
+remote: ++ true[K
+remote: + DOCKERFILE_PORT=[K
+remote: + [[ -n '' ]][K
+remote: + pluginhook pre-build-dockerfile pymysample[K
+remote: + docker build -t dokku/pymysample .[K
+remote: + docker rm b7a8af10a651[K
+remote: [1GSending build context to Docker daemon  59.9 kB[Kremote: remote: 
+remote: [1GSending build context to Docker daemon [Kremote: 
+remote: [1GStep 0 : FROM kaggle/python:latest[K
+remote: [1G ---> d7422af11c41[K
+remote: [1GStep 1 : RUN curl -L -k https://github.com/gliderlabs/herokuish/releases/download/v0.3.0/herokuish_0.3.0_linux_x86_64.tgz -L |tar -xzC /bin[K
+remote: [1G ---> Using cache[K
+remote: [1G ---> ac2e961008ac[K
+remote: [1GStep 2 : COPY / /app/[K
+remote: + docker rmi 31d483126114 20951ad32038[K
+remote: [1G ---> bfe97ec4255c[K
+remote: [1GRemoving intermediate container 68ce57f7ec49[K
+remote: [1GStep 3 : RUN /bin/herokuish buildpack install 	&& ln -s /bin/herokuish /build 	&& ln -s /bin/herokuish /start 	&& ln -s /bin/herokuish /exec[K
+remote: [1G ---> Running in ef44f681f034[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-clojure'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-go'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-gradle'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-grails'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-java'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-multi'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-nodejs'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-php'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-play'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-python'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-ruby'...[K
+remote: [1GCloning into '/tmp/buildpacks/heroku-buildpack-scala'...[K
+remote: [1G ---> 74c5d9fd762d[K
+remote: [1GRemoving intermediate container ef44f681f034[K
+remote: [1GSuccessfully built 74c5d9fd762d[K
+remote: + pluginhook post-build-dockerfile pymysample[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/docker-options/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/docker-options/commands[K
+remote: + source /var/lib/dokku/plugins/docker-options/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + PHASES=(build deploy run)[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/dokku-psql-single-container/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ APP=pymysample[K
+remote: ++ PSQL_ROOT=/home/dokku/.psql-sc[K
+remote: ++ PSQL_IMAGE=postgres:9.3[K
+remote: ++ PSQL_CONTAINER_NAME=psql-single-container[K
+remote: + set +e[K
+remote: + [[ build == psql:* ]][K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/domains/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/domains/commands[K
+remote: + source /var/lib/dokku/plugins/domains/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/git/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/git/commands[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/logging-supervisord/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/logging-supervisord/commands[K
+remote: + PLUGIN_DIR=/var/lib/dokku/plugins/logging-supervisord[K
+remote: + . /var/lib/dokku/plugins/logging-supervisord/lib/helpers[K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/nginx-vhosts/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/nginx-vhosts/commands[K
+remote: + source /var/lib/dokku/plugins/nginx-vhosts/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/ps/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: ++ dirname /var/lib/dokku/plugins/ps/commands[K
+remote: + source /var/lib/dokku/plugins/ps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/shell/commands build pymysample dockerfile /tmp/tmp.I4qDeceVNt[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + [[ 1 -eq 0 ]][K
+remote: + dokku_log_info1 'Releasing pymysample...'[K
+remote: + echo '-----> Releasing pymysample...'[K
+remote: + dokku release pymysample dockerfile[K
+remote: [1G-----> Releasing pymysample...[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args release pymysample dockerfile[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ release =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + IMAGE=dokku/pymysample[K
+remote: + IMAGE_SOURCE_TYPE=dockerfile[K
+remote: + case "$IMAGE_SOURCE_TYPE" in[K
+remote: + pluginhook pre-release-dockerfile pymysample[K
+remote: + pluginhook post-release-dockerfile pymysample[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands release pymysample dockerfile[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/docker-options/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/docker-options/commands[K
+remote: + source /var/lib/dokku/plugins/docker-options/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + PHASES=(build deploy run)[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/dokku-psql-single-container/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ dirname /var/lib/dokku/plugins/dokku-psql-single-container/commands[K
+remote: + source /var/lib/dokku/plugins/dokku-psql-single-container/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ APP=pymysample[K
+remote: ++ PSQL_ROOT=/home/dokku/.psql-sc[K
+remote: ++ PSQL_IMAGE=postgres:9.3[K
+remote: ++ PSQL_CONTAINER_NAME=psql-single-container[K
+remote: + set +e[K
+remote: + [[ release == psql:* ]][K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/domains/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/domains/commands[K
+remote: + source /var/lib/dokku/plugins/domains/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/git/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/git/commands[K
+remote: + source /var/lib/dokku/plugins/git/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/logging-supervisord/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/logging-supervisord/commands[K
+remote: + PLUGIN_DIR=/var/lib/dokku/plugins/logging-supervisord[K
+remote: + . /var/lib/dokku/plugins/logging-supervisord/lib/helpers[K
+remote: + case "$1" in[K
+remote: + exit_code=0[K
+remote: + set -e[K
+remote: + [[ 0 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 0 -ne 0 ]][K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/nginx-vhosts/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/nginx-vhosts/commands[K
+remote: + source /var/lib/dokku/plugins/nginx-vhosts/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/ps/commands release pymysample dockerfile[K
+remote: ++ dirname /var/lib/dokku/plugins/ps/commands[K
+remote: + source /var/lib/dokku/plugins/ps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/shell/commands release pymysample dockerfile[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + [[ 1 -eq 0 ]][K
+remote: + dokku_log_info1 'Deploying pymysample...'[K
+remote: + echo '-----> Deploying pymysample...'[K
+remote: + dokku deploy pymysample[K
+remote: [1G-----> Deploying pymysample...[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args deploy pymysample[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ deploy =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + APP=pymysample[K
+remote: + IMAGE=dokku/pymysample[K
+remote: + pluginhook pre-deploy pymysample[K
+remote: + [[ -f /home/dokku/pymysample/CONTAINER ]][K
+remote: + oldid=01de924226b49c56ce02120d6920d9ab995da1c1c73b952297d2a0add4f368a4[K
+remote: ++ :[K
+remote: ++ pluginhook docker-args pymysample deploy[K
+remote: ++ cat[K
+remote: + STDIN=[K
+remote: + APP=pymysample[K
+remote: + LOG_DIR=/var/log/dokku/pymysample[K
+remote: + CONTAINER_PATH=/var/log/app[K
+remote: + mkdir -p /var/log/dokku/pymysample[K
+remote: + echo ' -v /var/log/dokku/pymysample:/var/log/app'[K
+remote: + DOCKER_ARGS=' -v /var/log/dokku/pymysample:/var/log/app'[K
+remote: ++ pluginhook docker-args-deploy pymysample[K
+remote: ++ :[K
+remote: ++ dirname /var/lib/dokku/plugins/config/docker-args-deploy[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: ++ cat[K
+remote: + STDIN=[K
+remote: + APP=pymysample[K
+remote: + IMAGE=dokku/pymysample[K
+remote: + DOCKERFILE_ENV_FILE=/home/dokku/pymysample/DOCKERFILE_ENV_FILE[K
+remote: + is_image_buildstep_based dokku/pymysample[K
+remote: + [[ ! -f /home/ubuntu/.circlerc ]][K
+remote: + local DOCKER_ARGS=--rm[K
+remote: + docker run --entrypoint=/bin/bash --rm dokku/pymysample -c '[[ -f /exec ]]'[K
+remote: + echo ''[K
+remote: ++ cat[K
+remote: + STDIN=[K
+remote: + APP=pymysample[K
+remote: + case "$0" in[K
+remote: + PHASE=DEPLOY[K
+remote: + FILE_PREFIX=DOCKER_OPTIONS_[K
+remote: + PHASE_FILE_PATH=/home/dokku/pymysample/DOCKER_OPTIONS_DEPLOY[K
+remote: + output=[K
+remote: + [[ -f /home/dokku/pymysample/DOCKER_OPTIONS_DEPLOY ]][K
+remote: + echo ''[K
+remote: + DOCKER_ARGS+=[K
+remote: ++ pluginhook bind-external-ip pymysample[K
+remote: + APP=pymysample[K
+remote: ++ dokku config:get pymysample NO_VHOST[K
+remote: + [[ -f /home/dokku/dokkurc ]][K
+remote: + [[ -d /home/dokku/.dokkurc ]][K
+remote: + for f in '$DOKKU_ROOT/.dokkurc/*'[K
+remote: + source /home/dokku/.dokkurc/DOKKU_TRACE[K
+remote: ++ export DOKKU_TRACE=1[K
+remote: ++ DOKKU_TRACE=1[K
+remote: + [[ -n 1 ]][K
+remote: + set -x[K
+remote: + parse_args config:get pymysample NO_VHOST[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + for arg in '"$@"'[K
+remote: + case "$arg" in[K
+remote: + return 0[K
+remote: + args=("$@")[K
+remote: + [[ config:get =~ ^--.* ]][K
+remote: + has_tty[K
+remote: ++ /usr/bin/tty[K
+remote: ++ true[K
+remote: + [[ not a tty == \n\o\t\ \a\ \t\t\y ]][K
+remote: + return 1[K
+remote: + DOKKU_QUIET_OUTPUT=1[K
+remote: ++ id -un[K
+remote: + [[ dokku != \d\o\k\k\u ]][K
+remote: + [[ -n '' ]][K
+remote: + case "$1" in[K
+remote: + implemented=0[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/00_dokku-standard/commands config:get pymysample NO_VHOST[K
+remote: ++ dirname /var/lib/dokku/plugins/00_dokku-standard/commands[K
+remote: + source /var/lib/dokku/plugins/00_dokku-standard/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/apps/commands config:get pymysample NO_VHOST[K
+remote: ++ dirname /var/lib/dokku/plugins/apps/commands[K
+remote: + source /var/lib/dokku/plugins/apps/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/backup/commands config:get pymysample NO_VHOST[K
+remote: + CURRENT_BACKUP_VERSION=1[K
+remote: + case "$1" in[K
+remote: + exit 10[K
+remote: + exit_code=10[K
+remote: + set -e[K
+remote: + [[ 10 -eq 10 ]][K
+remote: + continue[K
+remote: + for script in '$PLUGIN_PATH/*/commands'[K
+remote: + set +e[K
+remote: + /var/lib/dokku/plugins/config/commands config:get pymysample NO_VHOST[K
+remote: ++ dirname /var/lib/dokku/plugins/config/commands[K
+remote: + source /var/lib/dokku/plugins/config/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + ENV_FILE=/home/dokku/pymysample/ENV[K
+remote: + ENV_FILE_TEMP=/home/dokku/pymysample/ENV.tmp[K
+remote: + case "$1" in[K
+remote: + [[ -z pymysample ]][K
+remote: + verify_app_name pymysample[K
+remote: + local APP=pymysample[K
+remote: + [[ ! -d /home/dokku/pymysample ]][K
+remote: + IMAGE=dokku/pymysample[K
+remote: + return 0[K
+remote: + APP=pymysample[K
+remote: + [[ -z NO_VHOST ]][K
+remote: + config_create[K
+remote: + '[' -f /home/dokku/pymysample/ENV ']'[K
+remote: + [[ ! -s /home/dokku/pymysample/ENV ]][K
+remote: + KEY=NO_VHOST[K
+remote: + sed -e 's/^'\''//' -e 's/'\''$//'[K
+remote: + cut -d= -f2-[K
+remote: + grep '^export NO_VHOST='[K
+remote: + grep -Eo 'export ([a-zA-Z_][a-zA-Z0-9_]*=.*)' /home/dokku/pymysample/ENV[K
+remote: + exit_code=1[K
+remote: + set -e[K
+remote: + [[ 1 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 1 -ne 0 ]][K
+remote: + exit 1[K
+remote: ++ true[K
+remote: + NO_VHOST=[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}'[K
+remote: + RE_IPV4='([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + RE_IPV6='([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$'[K
+remote: + [[ -f /home/dokku/VHOST ]][K
+remote: + GLOBAL_VHOST=dokku.splitatom.com[K
+remote: + [[ -n '' ]][K
+remote: + [[ dokku.splitatom.com =~ ([0-9]{1,3}[\.]){3}[0-9]{1,3}$ ]][K
+remote: + [[ dokku.splitatom.com =~ ([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe08:(:[0-9a-fA-F]{1,4}){2,2}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}([0-9]{1,3}[\.]){3}[0-9]{1,3}|([0-9a-fA-F]{1,4}:){1,4}:([0-9]{1,3}[\.]){3}[0-9]{1,3}$ ]][K
+remote: + [[ -z dokku.splitatom.com ]][K
+remote: + [[ -f /home/dokku/pymysample/VHOST ]][K
+remote: + echo false[K
+remote: + BIND_EXTERNAL=false[K
+remote: + is_image_buildstep_based dokku/pymysample[K
+remote: + [[ ! -f /home/ubuntu/.circlerc ]][K
+remote: + local DOCKER_ARGS=--rm[K
+remote: + docker run --entrypoint=/bin/bash --rm dokku/pymysample -c '[[ -f /exec ]]'[K
+remote: + DOKKU_BUILDSTEP=true[K
+remote: + [[ -n true ]][K
+remote: + START_CMD='/start web'[K
+remote: + [[ -z true ]][K
+remote: + [[ false = \f\a\l\s\e ]][K
+remote: + port=5000[K
+remote: ++ docker run -d -e PORT=5000 -v /var/log/dokku/pymysample:/var/log/app dokku/pymysample /start web[K
+remote: + id=68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: ++ docker inspect --format '{{ .NetworkSettings.IPAddress }}' 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + ipaddr=172.17.0.190[K
+remote: + trap kill_new INT TERM EXIT[K
+remote: + dokku_log_info1 'Running pre-flight checks'[K
+remote: + echo '-----> Running pre-flight checks'[K
+remote: + pluginhook check-deploy pymysample 5000 172.17.0.190 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: [1G-----> Running pre-flight checks[K
+remote: ++ dirname /var/lib/dokku/plugins/checks/check-deploy[K
+remote: + source /var/lib/dokku/plugins/checks/../common/functions[K
+remote: ++ set -eo pipefail[K
+remote: ++ [[ -n 1 ]][K
+remote: ++ set -x[K
+remote: + APP=pymysample[K
+remote: + DOKKU_APP_LISTEN_PORT=5000[K
+remote: + DOKKU_APP_LISTEN_IP=172.17.0.190[K
+remote: + DOKKU_APP_CONTAINER_ID=68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + [[ -z 5000 ]][K
+remote: + [[ -z 172.17.0.190 ]][K
+remote: + [[ -z 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83 ]][K
+remote: + [[ -f /home/dokku/ENV ]][K
+remote: + source /home/dokku/ENV[K
+remote: ++ export CURL_CONNECT_TIMEOUT=5[K
+remote: ++ CURL_CONNECT_TIMEOUT=5[K
+remote: ++ export CURL_TIMEOUT=30[K
+remote: ++ CURL_TIMEOUT=30[K
+remote: + [[ -f /home/dokku/pymysample/ENV ]][K
+remote: + source /home/dokku/pymysample/ENV[K
+remote: ++ export DATABASE_URL=postgresql://pymysample:d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6@172.17.0.2:5432/pymysample[K
+remote: ++ DATABASE_URL=postgresql://pymysample:d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6@172.17.0.2:5432/pymysample[K
+remote: ++ export DB_HOST=172.17.0.2[K
+remote: ++ DB_HOST=172.17.0.2[K
+remote: ++ export DB_NAME=pymysample[K
+remote: ++ DB_NAME=pymysample[K
+remote: ++ export DB_PASS=d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6[K
+remote: ++ DB_PASS=d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6[K
+remote: ++ export DB_PORT=5432[K
+remote: ++ DB_PORT=5432[K
+remote: ++ export DB_TYPE=postgresql[K
+remote: ++ DB_TYPE=postgresql[K
+remote: ++ export DB_USER=pymysample[K
+remote: ++ DB_USER=pymysample[K
+remote: ++ export POSTGRESQL_URL=postgresql://pymysample:d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6@172.17.0.2:5432/pymysample[K
+remote: ++ POSTGRESQL_URL=postgresql://pymysample:d2f5065298a86a4ca054ae650abbdebb31e8be370fcfb2a5903cdbb6a13d78c6@172.17.0.2:5432/pymysample[K
+remote: + WAIT=5[K
+remote: + TIMEOUT=30[K
+remote: + ATTEMPTS=5[K
+remote: ++ mktemp -d /tmp/CHECKS.XXXXX[K
+remote: + TMPDIR=/tmp/CHECKS.PulQU[K
+remote: + docker cp 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83:/app/CHECKS /tmp/CHECKS.PulQU[K
+remote: + true[K
+remote: + FILENAME=/tmp/CHECKS.PulQU/CHECKS[K
+remote: + trap cleanup EXIT[K
+remote: + [[ ! -s /tmp/CHECKS.PulQU/CHECKS ]][K
+remote: + dokku_log_verbose 'For more efficient zero downtime deployments, create a file CHECKS.'[K
+remote: + echo '       For more efficient zero downtime deployments, create a file CHECKS.'[K
+remote: + dokku_log_verbose 'See http://progrium.viewdocs.io/dokku/checks-examples.md for examples'[K
+remote: + echo '       See http://progrium.viewdocs.io/dokku/checks-examples.md for examples'[K
+remote: + dokku_log_verbose 'CHECKS file not found in container: Running simple container check...'[K
+remote: + echo '       CHECKS file not found in container: Running simple container check...'[K
+remote: + rm -rf /tmp/CHECKS.PulQU[K
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.[K
+remote: [1G       See http://progrium.viewdocs.io/dokku/checks-examples.md for examples[K
+remote: [1G       CHECKS file not found in container: Running simple container check...[K
+remote: + DOKKU_DEFAULT_WAIT=35[K
+remote: + dokku_log_info1 'Waiting for 35 seconds ...'[K
+remote: + echo '-----> Waiting for 35 seconds ...'[K
+remote: + sleep 35[K
+remote: [1G-----> Waiting for 35 seconds ...[K
+remote: + grep -q 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + docker ps -q --no-trunc[K
+remote: + dokku_log_fail 'App container failed to start!!'[K
+remote: + echo 'App container failed to start!!'[K
+remote: App container failed to start!![K
+remote: + exit 1[K
+remote: + cleanup[K
+remote: + rm -rf /tmp/CHECKS.PulQU[K
+remote: + dokku_log_info2_qui+ exit_code=0
++ set -e
++ [[ 0 -eq 10 ]]
++ implemented=1
++ [[ 0 -ne 0 ]]
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/logging-supervisord/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/logging-supervisord/commands
++ PLUGIN_DIR=/var/lib/dokku/plugins/logging-supervisord
++ . /var/lib/dokku/plugins/logging-supervisord/lib/helpers
++ case "$1" in
++ exit_code=0
++ set -e
++ [[ 0 -eq 10 ]]
++ implemented=1
++ [[ 0 -ne 0 ]]
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/nginx-vhosts/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/nginx-vhosts/commands
++ source /var/lib/dokku/plugins/nginx-vhosts/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/ps/commands git-receive-pack ''\''pymysample'\'''
+++ dirname /var/lib/dokku/plugins/ps/commands
++ source /var/lib/dokku/plugins/ps/../common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ for script in '$PLUGIN_PATH/*/commands'
++ set +e
++ /var/lib/dokku/plugins/shell/commands git-receive-pack ''\''pymysample'\'''
++ case "$1" in
++ exit 10
++ exit_code=10
++ set -e
++ [[ 10 -eq 10 ]]
++ continue
++ [[ 1 -eq 0 ]]
++ exit 0
+et 'pymysample container output:'[K
+remote: + [[ -z '' ]][K
+remote: + echo '=====> pymysample container output:'[K
+remote: + dokku_container_log_verbose_quiet 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + CID=68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + shift[K
+remote: + OIFS=' 	[K
+remote: '[K
+remote: + IFS='[K
+remote: '[K
+remote: [1G=====> pymysample container output:[K
+remote: ++ docker logs 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + IFS=' 	[K
+remote: '[K
+remote: + dokku_log_info2_quiet 'end pymysample container output'[K
+remote: + [[ -z '' ]][K
+remote: + echo '=====> end pymysample container output'[K
+remote: [1G=====> end pymysample container output[K
+remote: + kill_new[K
+remote: + docker inspect 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + docker kill 68ff393e9b59b03903a8cb82944886b7c99550bc24f400e02240532a11580f83[K
+remote: + trap - INT TERM EXIT[K
+remote: + kill -9 13619[K
+remote: /usr/local/bin/dokku: line 49: 13619 Killed                  dokku deploy "$APP"[K
+remote: + exit_code=137[K
+remote: + set -e[K
+remote: + [[ 137 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 137 -ne 0 ]][K
+remote: + exit 137[K
+remote: + exit_code=137[K
+remote: + set -e[K
+remote: + [[ 137 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 137 -ne 0 ]][K
+remote: + exit 137[K
+remote: + exit_code=137[K
+remote: + set -e[K
+remote: + [[ 137 -eq 10 ]][K
+remote: + implemented=1[K
+remote: + [[ 137 -ne 0 ]][K
+remote: + exit 137[K
+To dokku@dokku.splitatom.com:pymysample
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'dokku@dokku.splitatom.com:pymysample'
