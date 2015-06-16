@@ -2,4 +2,5 @@ Django==1.8.2
 dj-database-url==0.3.0
 waitress==0.8.9
 psycopg2==2.5.2
-
+restnavigator=1.0.1
+django-extensions

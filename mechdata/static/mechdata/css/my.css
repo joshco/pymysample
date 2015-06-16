@@ -1,0 +1,213 @@
+
+html, body {
+  height: 100%;
+  background: center no-repeat fixed url('/static/mechdata/flagpole.jpg');
+  background-size: cover;
+  font-family: 'Arimo', Arial, sans-serif;
+  font-weight: 400;
+
+}
+
+// make all images responsive by default
+//img {
+//  @extend .img-responsive;
+//  margin: 0 auto;
+//}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+.navbar-trans {
+  background-color: #279ddd;
+  color: #fff;
+}
+
+.navbar-trans li > a:hover, .navbar-trans li > a:focus, .navbar-trans li.active {
+  background-color: #38afef;
+}
+
+.navbar-trans a {
+  color: #fefefe;
+}
+
+.navbar-trans .form-control:focus {
+  border-color: #eee;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+}
+
+section {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  min-height: calc(100% - 1px);
+}
+
+.top-pad {
+  padding-top: 15%;
+}
+
+.btn-xs {
+  margin-bottom: 5px;
+}
+
+td .btn-xs {
+  min-width: 55px;
+}
+
+.v-center {
+  padding-top: 10%;
+  font-size: 70px;
+}
+
+.title-text {
+  font-size: 70px;
+}
+
+.well {
+  border-color: transparent;
+  //opacity: .85;
+}
+
+a.list-group-item.active, [class*='-info'] {
+  background-color: #168ccc;
+  color: #fff;
+}
+
+#section1 {
+  background-color: #168ccc;
+  color: #dedeff;
+}
+
+#section-main {
+  //background-color: #e5e5ef;
+  background-color: transparent;
+  color: #dedeff;
+  padding-top: 100px;
+}
+#section2 {
+  //background-color: #e5e5ef;
+  background-color: transparent;
+  color: #dedeff;
+}
+
+#section3 {
+  background-color: #168ccc;
+  color: #ddd;
+}
+
+#section4 {
+  background-color: #fff;
+  color: #444;
+}
+
+#section5, #section7, #section7 a {
+  color: #f5f5f5;
+}
+
+#section6 {
+  background-color: #168ccc;
+  color: #ddd;
+}
+
+footer {
+  background-color: #494949;
+  color: #ddd;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.well {
+  color: #000000;
+}
+
+footer .nav > li > a {
+  padding: 3px;
+  color: #ccc;
+}
+
+footer .nav > li > a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.alert-box {
+  position: absolute;
+  left: 0px;
+  top: 51px;
+  width: 100%;
+  z-index: 30;
+}
+
+.downer {
+  margin-top: 20px;
+}
+.getting-started {
+  overflow: hidden;
+}
+
+.getting-started img {
+  @extend .img-responsive;
+  margin: 0 auto;
+}
+
+@media (max-width: $screen-sm-min) {
+
+  .title-text {
+    font-size: 45px;
+  }
+}
+
+.error-box {
+  background-color: slategray;
+  color: greenyellow;
+  padding: 10px 10px 10px 10px;
+}
+
+.result-heading {
+  font-size: 22;
+  font-weight: bold;
+  //display: block;
+}
+.osdi-logo {
+  height: 70px;
+}
+
+.template-content {
+  max-width: 400px;
+  margin: 10px 10px 10px 10px;
+}
+
+textarea.code {
+  height: 600px;
+}
+
+.CodeMirror {
+  height:auto;
+}
+
+.stamp-thumbnail > img{
+  width: 75px;
+  padding: 10px 10px 10px 10px;
+
+}
+.iti-flag {
+  background-image: url(asset_path('flags.png'));
+}
+
+.waiting {
+  background-color: red;
+}
+.rejected {
+  background-color: black;
+
+}
+.approved {
+  background-color: green;
+}
+
+.sentiment-box {
+  height: 411px;
+}

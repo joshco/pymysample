@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+{% load staticfiles %}
+<div class="row">
+	<div class="col-md-6">
+		<div class="panel panel-default sentiment-box">
+			<div class="panel-heading">
+				<h3>Enter Sample</h3>
+			</div>
+			<div class="panel-body">
+				<form action="/folks/sentiment" method="post" class="form">
+					{% csrf_token %}
+					<div class="form-group">
+						{{ form }}
+					</div>
+					<input type="submit" value="Submit" class="btn btn-primary" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="panel panel-default sentiment-box">
+			<div class="panel-heading">
+				<h3>Prediction Results</h3>
+			</div>
+			<div class="panel-body">
+			
+				<h3>Input Sample</h3>
+				<p>{{ sample }}</p>
+				<h3>Sentiment</h3>
+				<p>{{ prediction}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

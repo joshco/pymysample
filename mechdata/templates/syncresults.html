@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+{% load staticfiles %}
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-responsive table-striped">
+            <thead>
+            <th>Name</th>
+            <th>Sample</th>
+            <th>Sentiment</th>
+            </thead>
+            <tbody>
+
+            {% for person in results %}
+            <tr>
+                <td>{{ person.name}}</td>
+                <td>{{ person.sample}}</td>
+                <td>{{ person.sentiment }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+</div>
+{% endblock %}
