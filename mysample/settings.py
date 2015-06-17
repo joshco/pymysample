@@ -67,6 +67,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'mechdata.context_processors.osdi_browser'
             ],
         },
     },
@@ -118,3 +119,4 @@ STATIC_URL = '/static/'
 
 OSDI_AEP=os.environ['OSDI_AEP']
 OSDI_TOKEN=os.environ['OSDI_TOKEN']
+OSDI_BROWSER=os.environ['OSDI_BROWSER']
