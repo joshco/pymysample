@@ -66,6 +66,5 @@ def syncresults(request):
 		  'sentiment' : sentiment.compute(sample)
 		}
 		converted_results.append(c)
-	foox = { 'josh': 'cohen'}
-	context = { 'results': converted_results, 'foo': foox}
+	context = { 'results': converted_results}
 	return render(request,'syncresults.html',context)
