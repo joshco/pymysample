@@ -41,7 +41,12 @@
 					<li><a href="/sync">Sync and Analyze</a></li>
 					<li><a href="{{ OSDI_BROWSER }}">OSDI API</a></li>
 					<li><a href="http://hfa.mechanizer.org" class="btn btn-sm btn-primary">Return to Main Mechanizer</a></li>
-
+						{% if user.is_authenticated %}
+					<li><a href="#">{{ user.username }}</a></li>
+					<li><a href="/logout">Logout</a></li>
+					{% else %}
+					<li><a href="{% url 'socialauth_begin' 'facebook' %}">Facebook Login</a></li>
+					{% endif %}
 				</ul>
 			</div>
 		</div>

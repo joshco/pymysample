@@ -39,7 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'mechdata',
-    'sklearn','numpy'
+    'sklearn','numpy',
+    'social_auth'
 
 )
 
@@ -135,6 +136,17 @@ DATABASES['default'] =  dj_database_url.config()
 #     }
 # }
 
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
+
+FACEBOOK_APP_ID='944813795571620'
+FACEBOOK_API_SECRET='a9f74243ca4af6e7a71729da0f16f92b'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'social_auth.backends.facebook.FacebookBackend',
+)
+
+LOGIN_REDIRECT_URL = '/'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/

@@ -6,6 +6,13 @@ from .stats import *
 from .datamover import Osdi
 from django.conf import settings
 import logging
+from django.contrib.auth import logout as auth_logout
+
+def logout(request):
+    """Logs out user"""
+    auth_logout(request)
+    return render(request,'main.html', {})
+
 logger=logging.getLogger('django')
 
 from django.template.defaulttags import register
