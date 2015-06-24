@@ -20,6 +20,5 @@ class Sentiment():
 			sample_xform= self.vect.transform([sample])
 			prediction_raw = self.clf.predict(sample_xform)[0]
 			prediction = "Happy" if prediction_raw == 1 else "Sad"
-
 			return prediction
 

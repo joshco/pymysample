@@ -5,6 +5,8 @@ from .forms import *
 from .stats import *
 from .datamover import Osdi
 from django.conf import settings
+import logging
+logger=logging.getLogger('django')
 
 from django.template.defaulttags import register
 @register.filter
@@ -26,6 +28,7 @@ def detail(request,folk_id):
 def sentiment(request):
 	context={}
 	context['form']= SentimentForm()
+	logger.debug("view/sentiment")
 
 	if request.method =='POST':
 		form=SentimentForm(request.POST)
@@ -38,6 +41,7 @@ def sentiment(request):
 			prediction=sentiment.compute(sample)
 			context['prediction']=prediction
 			context['sample']= sample[0:50] + '...'
+			logger.debug("Manual Sentiment: %s result: %s" % (sample,prediction))
 		
 
 	return render(request,'sentiment.html',context)
@@ -53,6 +57,7 @@ def syncresults(request):
 	aep=settings.OSDI_AEP
 	osdi=Osdi(aep,token)
 	results=osdi.sync()
+	logger.debug("OSDI sync got {} results".format(len(results)))
 	sentiment=Sentiment()
 
 	converted_results=[]
