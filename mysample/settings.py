@@ -138,8 +138,8 @@ DATABASES['default'] =  dj_database_url.config()
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 
-FACEBOOK_APP_ID='944813795571620'
-FACEBOOK_API_SECRET='a9f74243ca4af6e7a71729da0f16f92b'
+FACEBOOK_APP_ID=os.environ['FB_APP_ID']
+FACEBOOK_API_SECRET=os.environ['FB_APP_SECRET']
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
