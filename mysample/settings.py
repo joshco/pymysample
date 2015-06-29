@@ -138,9 +138,6 @@ DATABASES['default'] =  dj_database_url.config()
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 
-FACEBOOK_APP_ID=os.environ['FB_APP_ID']
-FACEBOOK_API_SECRET=os.environ['FB_APP_SECRET']
-
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'social_auth.backends.facebook.FacebookBackend',
@@ -167,6 +164,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-OSDI_AEP=os.environ['OSDI_AEP']
-OSDI_TOKEN=os.environ['OSDI_TOKEN']
-OSDI_BROWSER=os.environ['OSDI_BROWSER']
+OSDI_AEP=os.environ.get('OSDI_AEP','http://hfa.mechanizer.org/api/v1')
+OSDI_TOKEN=os.environ.get('OSDI_TOKEN','foobar')
+OSDI_BROWSER=os.environ.get('OSDI_BROWSER','http://hfa.mechanizer.org/osdi')
+
+# os.environ.get('DEBUG', False)
+
+FACEBOOK_APP_ID=os.environ.get('FB_APP_ID','none')
+FACEBOOK_API_SECRET=os.environ.get('FB_APP_SECRET','none')
+
+
