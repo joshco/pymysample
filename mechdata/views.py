@@ -65,17 +65,22 @@ def syncresults(request):
 	osdi=Osdi(aep,token)
 	results=osdi.sync()
 	logger.debug("OSDI sync got {} results".format(len(results)))
-	sentiment=Sentiment()
+	classifier=Sentiment()
 
 	converted_results=[]
 	for person in results:
 		sample= person.get('custom_fields').get('sentence')
+		try:
+			sentiment=classifier.compute(sample)
+
+		except:
+			sentiment='n/a non-ascii'
 
 		c={
 		  'name' : person.get('given_name') + " " + person.get('family_name'),
 		  'sample' : sample,
 		  'mobile' : person.get('mobile'),
-		  'sentiment' : sentiment.compute(sample)
+		  'sentiment' : sentiment
 		}
 		converted_results.append(c)
 	context = { 'results': converted_results}
