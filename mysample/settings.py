@@ -68,7 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'mechdata.context_processors.osdi_browser'
+                'mechdata.context_processors.my_tags'
             ],
         },
     },
@@ -101,10 +101,15 @@ LOGGING = {
             'filename': 'log/test.log',
             'formatter': 'verbose'
         },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'
+        },
     },
     'loggers': {
         'django': {
-            'handlers':['file'],
+            'handlers':['console'],
             'propagate': True,
             'level':'DEBUG',
         },
@@ -172,6 +177,6 @@ OSDI_BROWSER=os.environ.get('OSDI_BROWSER','http://hfa.mechanizer.org/osdi')
 
 FACEBOOK_APP_ID=os.environ.get('FB_APP_ID','none')
 FACEBOOK_API_SECRET=os.environ.get('FB_APP_SECRET','none')
-SITE_TITLE=os.environ.get('SITE_TITLE','Hammers for America')
+NAV_TITLE=os.environ.get('NAV_TITLE','Hammers for America')
 
 

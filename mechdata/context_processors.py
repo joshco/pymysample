@@ -1,8 +1,6 @@
 from django.conf import settings # import the settings file
 
-def osdi_browser(request):
+def my_tags(request):
     # return the value you want as a dictionnary. you may add multiple values in there.
-    return {'OSDI_BROWSER': settings.OSDI_BROWSER}
-
-def site_title(request):
-    return {'SITE_TITLE': settings.SITE_TITLE}
+    return {'OSDI_BROWSER': settings.OSDI_BROWSER,
+            'NAV_TITLE': settings.NAV_TITLE }
