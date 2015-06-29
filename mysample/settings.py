@@ -172,5 +172,6 @@ OSDI_BROWSER=os.environ.get('OSDI_BROWSER','http://hfa.mechanizer.org/osdi')
 
 FACEBOOK_APP_ID=os.environ.get('FB_APP_ID','none')
 FACEBOOK_API_SECRET=os.environ.get('FB_APP_SECRET','none')
+SITE_TITLE=os.environ.get('SITE_TITLE','Hammers for America')
 
 
